@@ -143,15 +143,18 @@ Personal portfolio website built from scratch.
 
 ---
 
+
 ## 📫 Connect With Me
 
-🌍 Location: Warsaw, Poland
+[![Website](https://img.shields.io/badge/Website-LinatrixSite-blue?style=for-the-badge&logo=google-chrome)](https://linatrixsite.site)
 
-🌐 Website: https://linatrixsite.site
+[![GitHub](https://img.shields.io/badge/GitHub-elvirosmanov1989--alt-black?style=for-the-badge&logo=github)](https://github.com/elvirosmanov1989-alt)
 
-💼 Upwork: Add your Upwork profile link
+[![GitLab](https://img.shields.io/badge/GitLab-Profile-orange?style=for-the-badge&logo=gitlab)](https://gitlab.com/YOUR_USERNAME)
 
-📧 Email: Add your email address
+[![Upwork](https://img.shields.io/badge/Upwork-Freelancer-6FDA44?style=for-the-badge&logo=upwork)](https://www.upwork.com/freelancers/YOUR_PROFILE)
+
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:elvir.osmanov.1989@gmail.com)
 
 ---
 
