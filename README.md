@@ -154,7 +154,7 @@ Personal portfolio website built from scratch.
 
 [![Upwork](https://img.shields.io/badge/Upwork-Freelancer-6FDA44?style=for-the-badge&logo=upwork)](https://www.upwork.com/freelancers/~01e7f0de5836e2c8d3)
 
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:elvir.osmanov.1989@gmail.com)
+📧 Email: [elvir.osmanov.1989@gmail.com](mailto:elvir.osmanov.1989@gmail.com)
 
 ---
 
