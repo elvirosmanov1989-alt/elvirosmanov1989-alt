@@ -35,9 +35,9 @@ DevOps Engineer in progress
 - ✅ Docker
 - ✅ HashiCorp Vault
 - ✅ Ansible
-- 🔄 Kubernetes
-- 🔄 Terraform
-- 🔄 CI/CD
+- ✅ Kubernetes
+- ✅ Terraform
+- ✅ CI/CD
 - 🔄 Monitoring
 - ⏳ AWS
 
