@@ -150,9 +150,9 @@ Personal portfolio website built from scratch.
 
 [![GitHub](https://img.shields.io/badge/GitHub-elvirosmanov1989--alt-black?style=for-the-badge&logo=github)](https://github.com/elvirosmanov1989-alt)
 
-[![GitLab]([https://img.shields.io/badge/GitLab-Profile-orange?style=for-the-badge&logo=gitlab)](https://gitlab.com/YOUR_USERNAME](https://gitlab.com/elvir.osmanov.1989)
+[![GitLab](https://img.shields.io/badge/GitLab-Profile-FCA121?style=for-the-badge&logo=gitlab)](https://gitlab.com/elvir.osmanov.1989)
 
-[![Upwork][(https://img.shields.io/badge/Upwork-Freelancer-6FDA44?style=for-the-badge&logo=upwork)](https://www.upwork.com/freelancers/YOUR_PROFILE)](https://upwork.com/freelancers/~01e7f0de5836e2c8d3)
+[![Upwork](https://img.shields.io/badge/Upwork-Freelancer-6FDA44?style=for-the-badge&logo=upwork)](https://www.upwork.com/freelancers/~01e7f0de5836e2c8d3)
 
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:elvir.osmanov.1989@gmail.com)
 
