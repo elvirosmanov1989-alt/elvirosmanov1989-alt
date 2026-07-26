@@ -27,38 +27,53 @@ Building production-style infrastructure with Linux, Kubernetes, Docker, Terrafo
 
 ## 🔹 Family App (LinatrixSite) – Production-Ready DevOps Platform
 
-A full-stack Family Task Management application deployed on **LinatrixSite**, demonstrating a complete production-style DevOps workflow from development to automated deployment, security, monitoring, and GitOps.
+A full-stack Family Task Management application deployed on a self-managed **3-node Kubernetes cluster** (RHEL & Ubuntu), demonstrating a complete production-style DevOps workflow: containerization, Helm packaging, automated CI/CD, GitOps deployment, secrets management, and full observability.
+
+### Architecture
+
+```mermaid
+graph LR
+    A[Developer Push] --> B[GitLab CI/CD]
+    B --> C[Container Registry]
+    C --> D[ArgoCD - GitOps]
+    D --> E[Kubernetes Cluster]
+    E --> F[Frontend]
+    E --> G[Backend]
+    E --> H[PostgreSQL]
+    E --> I[Prometheus / Grafana / Loki]
+```
 
 ### Technologies
 
 - Linux (RHEL & Ubuntu)
 - Docker
-- Kubernetes
+- Kubernetes (kubeadm, Calico CNI)
+- NGINX Ingress
 - Helm
 - GitLab CI/CD
 - ArgoCD (GitOps)
 - HashiCorp Vault
-- Prometheus
-- Grafana
-- Loki
+- Prometheus & Grafana
+- Loki (log aggregation)
 - PostgreSQL
-- NGINX Ingress
+- Node.js / Express
 
 ### Highlights
 
-- Designed and deployed a 3-node Kubernetes cluster
-- Containerized frontend and backend applications
-- Automated Docker image builds and deployments with GitLab CI/CD
-- Implemented GitOps workflows using ArgoCD
-- Packaged applications with Helm
-- Integrated HashiCorp Vault for secure secret management
-- Configured Prometheus, Grafana, and Loki for monitoring and centralized logging
-- Implemented Kubernetes RBAC and production-style infrastructure
-- Hosted and managed the complete application and infrastructure in a home lab environment
+- Built and hardened a 3-node Kubernetes cluster from bare-metal Linux VMs (kubeadm, Calico), including diagnosing and resolving real infrastructure issues (CNI networking, firewall/forwarding policies, DNS)
+- Migrated the app from Firebase (Auth + Realtime DB) to a self-hosted Node.js/Express + PostgreSQL backend
+- Packaged the full application (frontend, backend, database) as a Helm chart
+- Built a GitLab CI/CD pipeline: automated image builds, registry pushes, and Helm value updates on every push to `main`
+- Implemented GitOps with ArgoCD — the cluster's live state is continuously reconciled against Git, with zero manual `kubectl apply`
+- Integrated HashiCorp Vault for centralized secrets management
+- Deployed Prometheus, Grafana, and Loki for full metrics + log observability
+- Configured NGINX Ingress for unified routing to frontend and backend services
 
-🌐 Live Site: https://linatrixsite.site
+🔗 Repository (GitLab, primary): https://gitlab.com/elvir.osmanov.1989/linatrixsite
+🔗 Repository (GitHub mirror): https://github.com/elvirosmanov1989-alt/linatrixsite
 
-🔗 Repository: https://github.com/elvirosmanov1989-alt/linatrixsite
+🌐 App (public demo): https://linatrixsite.site *(hosted via Firebase/Cloudflare — separate from the Kubernetes infrastructure above)*
+
 
 ---
 
