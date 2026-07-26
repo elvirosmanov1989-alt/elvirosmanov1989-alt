@@ -24,37 +24,40 @@ Building production-style infrastructure with Linux, Kubernetes, Docker, Terrafo
 
 # 🚀 Featured Projects
 
-## 🔹 Family Task App Infrastructure
+## 🔹 LinatrixSite – Production-Ready DevOps Platform
 
-A production-style DevOps platform running on a 3-node Kubernetes cluster built in a home lab environment.
+A full-stack web application deployed on a production-style Kubernetes home lab, demonstrating modern DevOps practices from development to automated deployment, security, and monitoring.
 
 ### Technologies
 
-- Kubernetes
+- Linux (RHEL & Ubuntu)
 - Docker
+- Kubernetes
 - Helm
 - GitLab CI/CD
-- ArgoCD
+- ArgoCD (GitOps)
 - HashiCorp Vault
 - Prometheus
 - Grafana
 - Loki
 - PostgreSQL
-- Linux
+- NGINX Ingress
 
 ### Highlights
 
-- Multi-node Kubernetes cluster
-- Dockerized full-stack application (React + Node.js + PostgreSQL)
-- Automated CI/CD pipelines with GitLab
-- GitOps deployments using ArgoCD
-- Helm-based application packaging
-- Secure secrets management with HashiCorp Vault
-- Monitoring with Prometheus & Grafana
-- Centralized logging with Loki & Promtail
-- Kubernetes RBAC and production-style architecture
+- Designed and deployed a 3-node Kubernetes cluster
+- Containerized frontend and backend applications
+- Automated Docker image builds and deployments with GitLab CI/CD
+- Implemented GitOps workflows using ArgoCD
+- Packaged applications with Helm
+- Integrated HashiCorp Vault for secure secret management
+- Configured Prometheus, Grafana and Loki for monitoring and centralized logging
+- Implemented Kubernetes RBAC and production-style infrastructure
+- Hosted and managed the complete application and infrastructure in a home lab environment
 
-🔗 Repository: https://github.com/elvirosmanov1989-alt/family-task-app
+🌐 Live Site: https://linatrixsite.site
+
+🔗 Repository: https://github.com/elvirosmanov1989-alt/linatrixsite
 
 ---
 
@@ -79,28 +82,6 @@ Automated deployment and configuration of a multi-tier environment using Ansible
 
 ---
 
-## 🔹 Linatrix Site
-
-Personal portfolio website built from scratch.
-
-### Technologies
-
-- HTML
-- CSS
-- JavaScript
-
-### Highlights
-
-- Responsive design
-- Personal branding
-- Custom frontend implementation
-
-🌐 Live Site: https://linatrixsite.site
-
-🔗 Repository: https://github.com/elvirosmanov1989-alt/linatrixsite
-
----
-
 # 🛠️ Tech Stack
 
 ### Operating Systems
@@ -115,7 +96,7 @@ Personal portfolio website built from scratch.
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-blue?style=for-the-badge&logo=kubernetes)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm)
 
-### Infrastructure & Automation
+### Infrastructure as Code & Automation
 
 ![Ansible](https://img.shields.io/badge/Ansible-red?style=for-the-badge&logo=ansible)
 ![Terraform](https://img.shields.io/badge/Terraform-purple?style=for-the-badge&logo=terraform)
