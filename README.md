@@ -129,14 +129,18 @@ A full-stack Family Task Management application deployed on **LinatrixSite**, de
 
 ---
 
-# 📊 GitHub Statistics
+## 📊 GitHub Statistics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=elvirosmanov1989-alt&show_icons=true&theme=github_dark" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=elvirosmanov1989-alt&theme=github-dark" />
 </p>
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elvirosmanov1989-alt&layout=compact&theme=github_dark" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=elvirosmanov1989-alt&show_icons=true&theme=github_dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=elvirosmanov1989-alt&layout=compact&theme=github_dark" />
 </p>
 
 ---
