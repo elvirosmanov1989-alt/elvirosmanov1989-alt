@@ -1,11 +1,11 @@
 <h1 align="center">Hey, I'm Elvir 👋</h1>
 
 <p align="center">
-DevOps Engineer • RHCSA Certified • Infrastructure Automation Enthusiast
+DevOps Engineer • RHCSA Certified • Cloud & Infrastructure Automation Enthusiast
 </p>
 
 <p align="center">
-Building reliable infrastructure with Linux, Kubernetes, Ansible, Terraform, and CI/CD.
+Building reliable infrastructure with Linux, Kubernetes, Terraform, Ansible, GitOps, ArgoCD, and CI/CD.
 </p>
 
 ---
@@ -13,10 +13,12 @@ Building reliable infrastructure with Linux, Kubernetes, Ansible, Terraform, and
 ## 👨‍💻 About Me
 
 - 🌍 Based in Warsaw, Poland
-- 🐧 RHCSA Certified
-- ☁️ Learning Cloud & DevOps technologies
-- 🚀 Passionate about Infrastructure as Code and Automation
-- 📚 Currently expanding my AWS and Monitoring skills
+- 🐧 RHCSA Certified Linux Administrator
+- 🚀 DevOps enthusiast focused on automation and cloud infrastructure
+- ☸️ Experienced with Kubernetes, GitOps, and ArgoCD workflows
+- 🏗️ Passionate about Infrastructure as Code and reliable deployments
+- ☁️ Currently expanding my knowledge in AWS Cloud technologies
+- 📚 Continuously learning modern DevOps practices and tools
 
 ---
 
@@ -35,6 +37,7 @@ Highly available HashiCorp Vault deployment running on Kubernetes.
 - High Availability setup
 - Secure secret management
 - Kubernetes integration
+- Production-style architecture
 
 🔗 Repository: https://github.com/elvirosmanov1989-alt/vault-ha-cluster
 
@@ -53,6 +56,7 @@ Automated deployment and configuration of a multi-tier environment using Ansible
 - Infrastructure automation
 - Configuration management
 - Repeatable deployments
+- Automated server provisioning
 
 🔗 Repository: https://github.com/elvirosmanov1989-alt/ansible-multitier-project
 
@@ -89,11 +93,16 @@ Personal portfolio website built from scratch.
 ![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-blue?style=for-the-badge&logo=kubernetes)
 
-### Infrastructure & Automation
+### Infrastructure as Code & Automation
 
 ![Ansible](https://img.shields.io/badge/Ansible-red?style=for-the-badge&logo=ansible)
 ![Terraform](https://img.shields.io/badge/Terraform-purple?style=for-the-badge&logo=terraform)
 ![Vault](https://img.shields.io/badge/Vault-black?style=for-the-badge&logo=vault)
+
+### GitOps & Deployment
+
+![GitOps](https://img.shields.io/badge/GitOps-black?style=for-the-badge&logo=git)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-orange?style=for-the-badge&logo=argo)
 
 ### Cloud
 
@@ -125,39 +134,37 @@ Personal portfolio website built from scratch.
 
 ---
 
-## 🎯 Learning Roadmap
+## 🎯 DevOps Journey
 
-- ✅ Linux
+### ✅ Completed
+
+- ✅ Linux Administration
 - ✅ RHCSA Certification
-- ✅ Git
+- ✅ Git & Git workflows
 - ✅ Docker
+- ✅ Kubernetes
 - ✅ HashiCorp Vault
 - ✅ Ansible
-- ✅ Kubernetes
 - ✅ Terraform
-- ✅ CI/CD
-- 🔄 Monitoring (Prometheus & Grafana)
-- 🔄 AWS
-- ⏳ GitOps
-- ⏳ ArgoCD
+- ✅ CI/CD pipelines
+- ✅ GitOps principles
+- ✅ ArgoCD
+
+### 🔄 Currently Learning
+
+- 🔄 AWS Cloud Services
+- 🔄 Prometheus & Grafana Monitoring
+- 🔄 Cloud Infrastructure Architecture
+- 🔄 Advanced Kubernetes Operations
 
 ---
 
+## 🔄 GitLab → GitHub Synchronization
 
-## 📫 Connect With Me
+Configured repository synchronization between GitLab and GitHub using:
 
-[![Website](https://img.shields.io/badge/Website-LinatrixSite-blue?style=for-the-badge&logo=google-chrome)](https://linatrixsite.site)
+- Git remote configuration
+- SSH authentication
+- Multiple push destinations
 
-[![GitHub](https://img.shields.io/badge/GitHub-elvirosmanov1989--alt-black?style=for-the-badge&logo=github)](https://github.com/elvirosmanov1989-alt)
-
-[![GitLab](https://img.shields.io/badge/GitLab-Profile-FCA121?style=for-the-badge&logo=gitlab)](https://gitlab.com/elvir.osmanov.1989)
-
-[![Upwork](https://img.shields.io/badge/Upwork-Freelancer-6FDA44?style=for-the-badge&logo=upwork)](https://www.upwork.com/freelancers/~01e7f0de5836e2c8d3)
-
-📧 Email: [elvir.osmanov.1989@gmail.com](mailto:elvir.osmanov.1989@gmail.com)
-
----
-
-<p align="center">
-  <i>Always learning. Always automating. 🚀</i>
-</p>
+Workflow:
