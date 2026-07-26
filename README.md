@@ -1,3 +1,4 @@
+```markdown
 <h1 align="center">Hey, I'm Elvir 👋</h1>
 
 <p align="center">
@@ -14,19 +15,19 @@ Building production-style infrastructure with Linux, Kubernetes, Docker, Terrafo
 
 - 🌍 Based in Warsaw, Poland
 - 🐧 RHCSA Certified Linux Administrator
-- 🚀 DevOps Engineer passionate about automation, Kubernetes and cloud-native technologies
+- 🚀 DevOps Engineer passionate about automation, Kubernetes, and cloud-native technologies
 - ☸️ Experienced building production-style Kubernetes environments in a home lab
-- ⚙️ Skilled in Infrastructure as Code, GitOps, CI/CD and Linux administration
+- ⚙️ Skilled in Infrastructure as Code, GitOps, CI/CD, Linux administration, and infrastructure automation
 - ☁️ Currently expanding my AWS and cloud architecture knowledge
-- 📚 Continuously learning modern DevOps practices and infrastructure automation
+- 📚 Continuously learning modern DevOps tools and best practices
 
 ---
 
-# 🚀 Featured Projects
+# 🚀 Featured Project
 
-## 🔹 LinatrixSite – Production-Ready DevOps Platform
+## 🔹 Family App (LinatrixSite) – Production-Ready DevOps Platform
 
-A full-stack web application deployed on a production-style Kubernetes home lab, demonstrating modern DevOps practices from development to automated deployment, security, and monitoring.
+A full-stack Family Task Management application deployed on **LinatrixSite**, demonstrating a complete production-style DevOps workflow from development to automated deployment, security, monitoring, and GitOps.
 
 ### Technologies
 
@@ -51,7 +52,7 @@ A full-stack web application deployed on a production-style Kubernetes home lab,
 - Implemented GitOps workflows using ArgoCD
 - Packaged applications with Helm
 - Integrated HashiCorp Vault for secure secret management
-- Configured Prometheus, Grafana and Loki for monitoring and centralized logging
+- Configured Prometheus, Grafana, and Loki for monitoring and centralized logging
 - Implemented Kubernetes RBAC and production-style infrastructure
 - Hosted and managed the complete application and infrastructure in a home lab environment
 
@@ -61,24 +62,16 @@ A full-stack web application deployed on a production-style Kubernetes home lab,
 
 ---
 
-## 🔹 Ansible Multi-Tier Project
+## 🚀 Other Projects
 
-Automated deployment and configuration of a multi-tier environment using Ansible.
-
-### Technologies
-
-- Ansible
-- Linux
-- Docker
-
-### Highlights
-
-- Infrastructure automation
-- Configuration management
-- Repeatable deployments
-- Automated server provisioning
-
-🔗 Repository: https://github.com/elvirosmanov1989-alt/ansible-multitier-project
+| Project | Description |
+|---------|-------------|
+| **DevOps Portfolio** | Personal GitHub profile and portfolio showcasing DevOps projects and technologies. |
+| **GitLab CI/CD Assignment** | Automated CI/CD pipelines using GitLab CI for building, testing, and deployment. |
+| **Multi-Service Web Application** | Dockerized React, Node.js, and PostgreSQL application serving as the foundation for Kubernetes deployment. |
+| **Kubernetes Multi-Tier Deployment** | Kubernetes manifests for deploying a multi-tier application with networking, storage, and service discovery. |
+| **Ansible Multi-Tier Project** | Infrastructure automation and configuration management using Ansible roles and playbooks. |
+| **Vault HA Cluster** | High-availability HashiCorp Vault deployment on Kubernetes for secure secrets management. |
 
 ---
 
@@ -122,6 +115,7 @@ Automated deployment and configuration of a multi-tier environment using Ansible
 
 ![Git](https://img.shields.io/badge/Git-orange?style=for-the-badge&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab)
 
 ### Cloud
 
@@ -151,9 +145,9 @@ Automated deployment and configuration of a multi-tier environment using Ansible
 
 ✅ Linux Administration
 
-✅ Kubernetes
-
 ✅ Docker
+
+✅ Kubernetes
 
 ✅ Helm
 
@@ -184,7 +178,8 @@ Automated deployment and configuration of a multi-tier environment using Ansible
 # 📈 Currently Working On
 
 - 🔐 Kubernetes Security & RBAC
-- ☁️ AWS Migration
+- ☁️ AWS Migration with Terraform
 - 🚀 Amazon EKS
 - 📊 Kubernetes Scaling
 - 💾 Backup & Disaster Recovery
+```
