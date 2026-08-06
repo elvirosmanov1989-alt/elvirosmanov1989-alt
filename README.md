@@ -1,4 +1,3 @@
-
 <h1 align="center">Hey, I'm Elvir 👋</h1>
 
 <p align="center">
@@ -6,7 +5,7 @@ DevOps Engineer • RHCSA Certified • Kubernetes • Cloud & Infrastructure Au
 </p>
 
 <p align="center">
-Building production-style infrastructure with Linux, Kubernetes, Docker, Terraform, Ansible, GitOps, ArgoCD, Vault, and CI/CD.
+Building production-style infrastructure with Linux, Kubernetes, Docker, Terraform, AWS/EKS, Ansible, GitOps, ArgoCD, Vault, and CI/CD.
 </p>
 
 ---
