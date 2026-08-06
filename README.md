@@ -60,14 +60,14 @@ graph LR
 
 ### Highlights
 
-- Built and hardened a 3-node Kubernetes cluster from bare-metal Linux VMs (kubeadm, Calico), including diagnosing and resolving real infrastructure issues (CNI networking, firewall/forwarding policies, DNS)
-- Migrated the app from Firebase (Auth + Realtime DB) to a self-hosted Node.js/Express + PostgreSQL backend
-- Packaged the full application (frontend, backend, database) as a Helm chart
 - Built a GitLab CI/CD pipeline: automated image builds, registry pushes, and Helm value updates on every push to `main`
 - Implemented GitOps with ArgoCD — the cluster's live state is continuously reconciled against Git, with zero manual `kubectl apply`
-- Integrated HashiCorp Vault for centralized secrets management
+- Integrated HashiCorp Vault for centralized secrets management, migrating all secrets out of plaintext Git history
 - Deployed Prometheus, Grafana, and Loki for full metrics + log observability
 - Configured NGINX Ingress for unified routing to frontend and backend services
+- Implemented Horizontal Pod Autoscaling, verified with a real synthetic load test (1 → 2 replicas, live)
+- Built and executed a full disaster recovery drill: simulated total namespace loss, automatic GitOps rebuild via ArgoCD, and data restore from an S3-backed PostgreSQL backup — verified end-to-end
+- Provisioned a parallel AWS EKS cluster using Terraform (VPC, IAM, managed node group, remote state in S3 + DynamoDB), including resolving a real IAM/IRSA storage-provisioning issue
 
 🔗 Repository (GitLab, primary): https://gitlab.com/elvir.osmanov.1989/linatrixsite
 🔗 Repository (GitHub mirror): https://github.com/elvirosmanov1989-alt/linatrixsite
@@ -193,7 +193,13 @@ graph LR
 🔄 Cloud Infrastructure Architecture
 
 ---
+# ✅ Recently Completed
 
+- 🔐 Kubernetes Security & RBAC (least-privilege service accounts, Vault-integrated secrets)
+- 📊 Kubernetes Scaling (HPA, load-tested)
+- 💾 Backup & Disaster Recovery (Velero + PostgreSQL backups, full DR drill verified)
+- ☁️ AWS Migration with Terraform
+- 🚀 Amazon EKS (provisioned, deployed to, and safely torn down)
 # 📈 Currently Working On
 
 - 🔐 Kubernetes Security & RBAC
